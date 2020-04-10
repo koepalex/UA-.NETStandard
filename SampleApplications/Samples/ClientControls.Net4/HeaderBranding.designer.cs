@@ -55,9 +55,9 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(200, 22);
+            this.linkLabel1.Location = new System.Drawing.Point(200, 30);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(236, 25);
+            this.linkLabel1.Size = new System.Drawing.Size(175, 20);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "www.opcfoundation.org";
@@ -71,7 +71,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(200, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 32);
+            this.label1.Size = new System.Drawing.Size(276, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "OPC UA Technology Sample";
             // 
@@ -90,9 +90,9 @@
             // 
             this.appName.BackColor = System.Drawing.Color.White;
             this.appName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appName.Location = new System.Drawing.Point(203, 44);
+            this.appName.Location = new System.Drawing.Point(199, 50);
             this.appName.Name = "appName";
-            this.appName.Size = new System.Drawing.Size(306, 19);
+            this.appName.Size = new System.Drawing.Size(306, 29);
             this.appName.TabIndex = 8;
             this.appName.Text = "Sample Application";
             this.appName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
