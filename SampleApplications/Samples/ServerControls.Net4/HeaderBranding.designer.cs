@@ -55,9 +55,9 @@
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(200, 22);
+            this.linkLabel1.Location = new System.Drawing.Point(200, 30);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(236, 25);
+            this.linkLabel1.Size = new System.Drawing.Size(175, 20);
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "www.opcfoundation.org";
@@ -71,7 +71,7 @@
             this.label1.Font = new System.Drawing.Font("Arial", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(200, 6);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(389, 32);
+            this.label1.Size = new System.Drawing.Size(276, 24);
             this.label1.TabIndex = 3;
             this.label1.Text = "OPC UA Technology Sample";
             // 
@@ -79,9 +79,9 @@
             // 
             this.label2.BackColor = System.Drawing.Color.White;
             this.label2.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(3, 74);
+            this.label2.Location = new System.Drawing.Point(3, 76);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(230, 16);
+            this.label2.Size = new System.Drawing.Size(181, 20);
             this.label2.TabIndex = 4;
             this.label2.Text = "Unified Architecture demonstration app";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -90,9 +90,9 @@
             // 
             this.appName.BackColor = System.Drawing.Color.White;
             this.appName.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.appName.Location = new System.Drawing.Point(203, 44);
+            this.appName.Location = new System.Drawing.Point(199, 58);
             this.appName.Name = "appName";
-            this.appName.Size = new System.Drawing.Size(306, 19);
+            this.appName.Size = new System.Drawing.Size(306, 29);
             this.appName.TabIndex = 8;
             this.appName.Text = "Sample Application";
             this.appName.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -111,7 +111,7 @@
             this.MinimumSize = new System.Drawing.Size(500, 90);
             this.Name = "HeaderBranding";
             this.Padding = new System.Windows.Forms.Padding(3);
-            this.Size = new System.Drawing.Size(591, 90);
+            this.Size = new System.Drawing.Size(591, 96);
             this.Load += new System.EventHandler(this.ServerHeaderBranding_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
