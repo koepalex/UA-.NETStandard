@@ -86,6 +86,21 @@ namespace Opc.Ua.Server.Controls
                 UrlCB.SelectedIndex = 0;
             }
         }
+
+        /// <summary>
+        /// Reset the OPC UA server status control
+        /// </summary>
+        public void Reset()
+        {
+            //todo add lock?
+            m_server = null;
+            m_configuration = null;
+            UpdateTimerCTRL.Enabled = false;
+            UrlCB.Items.Clear();
+            UrlCB.ResetText();
+            SessionsLV.Items.Clear();
+            SubscriptionsLV.Items.Clear();
+        }
         #endregion
 
         #region Private Methods
