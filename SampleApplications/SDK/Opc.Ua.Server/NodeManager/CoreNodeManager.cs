@@ -2298,7 +2298,7 @@ namespace Opc.Ua.Server
                         {
                             if (instance)
                             {
-                                NodeId modellingRule = child.ModellingRule;
+                                NodeId modellingRule = child.ModellingRule; //lgtm cs/dereferenced-value-is-always-null
 
                                 if (modellingRule != Objects.ModellingRule_Mandatory)
                                 {
