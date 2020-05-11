@@ -1143,7 +1143,7 @@ namespace Opc.Ua
                 {
                     Type[] argTypes = systemType.GetGenericArguments();
 
-                    if (argTypes != null || argTypes.Length == 1)
+                    if (argTypes != null && argTypes.Length == 1)
                     {
                         TypeInfo typeInfo = Construct(argTypes[0]);
 
